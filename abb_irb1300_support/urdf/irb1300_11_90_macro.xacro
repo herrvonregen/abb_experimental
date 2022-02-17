@@ -13,9 +13,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/base_link.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/base_link.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -28,9 +28,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_1.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_1.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -43,9 +43,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_2.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_2.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -58,9 +58,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_3.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_3.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -73,9 +73,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_4.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_4.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -88,9 +88,9 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_5.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_5.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
+
             </visual>
         </link>
 
@@ -103,9 +103,8 @@
             </collision>
             <visual name="visual">
                 <geometry>
-                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_6.stl" />
+                    <mesh filename="package://abb_irb1300_support/meshes/irb1300_11_90/visual/link_6.dae" />
                 </geometry>
-                <xacro:material_abb_graphite_white/>
             </visual>
         </link>
         <!-- end of link list -->
